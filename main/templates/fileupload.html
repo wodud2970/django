@@ -1,0 +1,15 @@
+{% load static %}
+{% block content %}
+<div class = 'container'>
+    <form method = 'POST' action = "{% url 'fileupload' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h4>제목 : </h4>
+        <input type = 'text' name = 'title'>
+        <br>
+        <h4>내영 : </h4>
+        <textarea cols = 40 rows = 10 name = 'content'></textarea>
+        <input type = 'file' name = 'imgfile' accept = 'image/*'>
+        <input type="submit" class = 'btn btn-primary col-12' value ='제출'>
+    </form>
+</div>
+{% endblock %}

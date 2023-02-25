@@ -1,0 +1,9 @@
+{% load static %}
+{% for list in post %}
+            <ul>
+                <li>{{list.title}}</li>
+                <li>{{list.content}}</li>
+                <li>{{list.imgfile.path}}</li>
+            </ul>
+            <img src="{{ list.imgfile.url }}" >
+{% endfor %}

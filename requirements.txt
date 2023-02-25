@@ -1,0 +1,6 @@
+Django==4.1.7
+pip==22.3.1
+pymongo==3.12.3
+djongo
+Pillow==9.4.0
+pytz

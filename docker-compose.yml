@@ -1,0 +1,19 @@
+services:
+  mongodb:
+    image: mongo:latest
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+      MONGO_INITDB_DATABASE: django_mongodb_docker
+    ports:
+      - 27017:27017
+
+  web:
+    build: .
+    restart: always
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - 8000:8000
+    links:
+      - mongodb
