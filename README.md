@@ -6,7 +6,7 @@
 
 ---
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/05c93c9b-aae3-447e-83a0-8e6fae748950/Untitled.png)
+![Untitled](image/1.png)
 
 ## 웹서버 : Django
 
@@ -24,7 +24,7 @@
 - 선택 이유
     - 스키마리스:몽고DB는 스키마리스 데이터베이스이기 때문에, 데이터 모델의 변경에 유연합니다. 스키마리스 데이터베이스는  유연하게 데이터를 구조화할 수 있습니다.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/358314cc-ef0e-4053-9592-6a20056c9f69/Untitled.png)
+        ![Untitled](image/2.png)
         
         - 스키마리스 형태로 데이터 구조를 짠 이유가 가장 큰 이유입니다
     - 높은 확장성: 몽고DB는 분산형 데이터베이스 시스템으로, 높은 확장성을 가지고 있습니다. 웹프레임워크인 Django와 호환이 되기 때문에 선택하였습니다
@@ -38,7 +38,7 @@
 
 - 사진 업로드 페이지
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/432619d4-0ea3-4baa-9b75-d3c07d355499/Untitled.png)
+![Untitled](image/3.png)
 
 ### 사진 갤러리
 
@@ -51,7 +51,7 @@
         - 사진 경로
         - 사진 파일
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f90381f0-e9ee-4f68-bc56-8df77c895d0f/Untitled.png)
+![Untitled](image/4.png)
 
 ## 도커 배포
 
