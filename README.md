@@ -54,7 +54,7 @@
 ![Untitled](image/4.png)
 
 ## 도커 배포
-
+- 아마존 클라우드에 서빙하기위해 도커를 사용
 ---
 
 - Docker-compose
